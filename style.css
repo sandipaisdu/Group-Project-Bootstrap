@@ -1,0 +1,399 @@
+body {
+   font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+   font-family: 'Roboto Slab', serif;
+}
+
+#banner,
+#service,
+#quote,
+#portfolio,
+#about_us,
+#skills,
+#achievement,
+#blog,
+#coustomer,
+#testimonials,
+#contact_us {
+   text-align: center;
+   padding: 50px 0 60px;
+}
+
+
+
+
+/* Header
+********************/
+
+#header {
+   padding: 20px 0;
+}
+
+.nav {
+   color: #3D4C69;
+}
+
+.nav li {
+   margin: 0 5px;
+}
+
+.nav li a {
+   color: #3D4C69;
+   font-weight: bold;
+   font-size: 16px;
+   transition: .5s;
+   padding: 6px 12px;
+   border-radius: 0 0 10px 10px;
+}
+
+.nav li a:hover {
+   background: #212C3E;
+   color: #fff;
+}
+
+/* Banner
+********************/
+
+#banner {
+   background: #54637A url("img/bg.jpg") no-repeat;
+   background-size: cover;
+   background-position: center;
+   min-height: 500px;
+   padding: 100px 0;
+}
+
+.banner-glass {
+   background: rgba(33, 44, 62, 0.7);
+   height: auto;
+}
+
+.banner-content {
+   padding: 20px 0 30px;
+}
+
+.banner-strip {
+   margin: 10px auto;
+   color: #fff;
+   text-align: center;
+}
+
+.banner-strip img {
+   margin: 10px auto 20px;
+}
+
+.btn-artica {
+   margin-top: 20px;
+   border: 1px solid #fff;
+   color: #fff;
+   border-radius: 0;
+   padding: 14px 22px;
+   background-color: #212C3E;
+   font-size: 14px;
+   transition: .4s;
+}
+
+.btn-artica:hover {
+   background: #fff;
+   color: #212C3E;
+}
+/* Service
+********************/
+
+.cmn-heading span {
+   font-size: 18px;
+   letter-spacing: 2px;
+   
+}
+
+.cmn-heading img {
+   margin: 20px auto;
+}
+
+.cmn-heading p {
+   width: 90%;
+   max-width: 800px;
+   margin: 20px auto;
+}
+
+.fa {
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   background: #3D506E;
+   color: #fff;
+   font-size: 30px;
+   padding: 14px;
+   margin-top: 20px;
+   margin-bottom: 15px;
+}
+
+
+/* Quote
+********************/
+
+#quote {
+   background: #1D2538;
+   color: #fff;
+   text-align: center;
+}
+
+.quote-text {
+   width: 90%;
+   max-width: 800px;
+   margin: 20px auto;
+}
+
+.quote-per {
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.port-btn {
+   margin: 20px auto 30px;
+}
+
+/*Mixitup Css*/
+.work_menu{
+  padding: 50px;
+}
+.work_menu ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.work_menu ul li{
+  display: inline;
+  padding: 4px 15px;
+  margin: 15px;
+  cursor: pointer;
+  font-size: 21px;
+  transition:0.6s all;
+}
+.project-list{
+margin:0;
+padding:0;
+list-style:none;
+}
+.mix{display:none}
+.work_menu ul li:hover{
+	background-color:#00C7FB;
+	color:#fff
+}
+
+.single_work{
+	position:relative;
+}
+.project-item li{
+	list-style:none;
+}
+.work_overlay{
+	position:absolute;
+	left:0;
+  bottom: 0;
+	width:100%;
+	height:100%;
+	visibility:hidden;
+	transition:1s all;
+	  opacity: 0;
+  background-color:rgba(44,62,80,0.8);
+}
+.single_work:hover .work_overlay{
+	visibility:visible;
+	opacity:1;
+}
+.work_overlay i{
+transition:1s all;
+  margin-top: 90px;
+}
+.work_overlay i:hover{
+	background-color:#00C7FB;
+	color:#fff;
+}
+.work_overlay h3{
+	color:#00C7FB;
+}
+
+
+
+
+/* Portfolio
+********************/
+
+.btn-port {
+   padding: 6px 18px;
+   background: #3D506E;
+}
+
+.btn-port:hover {
+   background: #00C7FB;
+}
+
+.project-item {
+   position: relative;
+   margin-bottom: 25px;
+}
+
+.btn-purchase:hover {
+   border: 1px solid #3D506E;
+}
+
+
+
+/* About Us
+********************/
+
+#about_us {
+   background: #212C3E;
+   color: #fff;
+}
+
+.grp-member h4 {
+   margin-top: 20px;
+}
+
+.grp-member p {
+   font-weight: lighter;
+   margin-top: -2px;
+}
+
+.grp-member img {
+   margin: 0 auto;
+}
+
+/* Skills
+********************/
+
+.company,
+.skill-set {
+   text-align: left;
+}
+
+.progress {
+   height: 30px;
+   border-radius: 0;
+}
+
+.progress-bar {
+   padding: 6px 10px;
+   text-align: left;
+   background: #3D506E;
+}
+
+/* Achievement
+********************/
+
+#achievement {
+   background: #212C3E;
+   color: #fff;
+}
+
+.achi-number,
+.achi-name {
+   display: block;
+}
+
+.achi-item .fa {
+   background: transparent;
+   color: #00C7FB;
+   font-size: 50px;
+}
+
+.achi-number {
+   font-size: 30px;
+   margin-bottom: -20px;
+}
+
+/* Blog
+********************/
+
+.single-post {
+   background: #171F32;
+   color: #fff;
+   padding: 16px 15px;
+   text-align: left;
+   margin-bottom: 10px;
+}
+
+.single-post span {
+   display: block;
+   padding: 0 0 16px;
+   color: grey;
+}
+
+.single-post p {
+   color: #eee;
+}
+
+/* Customer
+********************/
+
+#coustomer {
+   background: #171F32;
+   color: #fff;
+}
+
+.coustomer-intro p,
+.testimonial-intro p{
+   width: 90%;
+   max-width: 800px;
+   margin: 20px auto 30px;
+}
+
+.coustomer-showcase img {
+   min-height: 50px;
+}
+
+
+/* Testimonials
+********************/
+
+.testimonial-intro img {
+   display: block;
+   margin: 20px auto 10px;
+}
+
+
+/* Contact Us
+********************/
+
+#contact_us {
+   background: #171F32;
+}
+.contact-heading {
+   color: #fff;
+}
+
+.contact-item {
+   color: #fff;
+}
+
+.form {
+   margin: 20px;
+}
+
+.form input,
+.form textarea {
+   border: 1px solid #fff;
+   background: #171F32;
+   border-radius: 0;
+   margin: 0 5px;
+}
+
+.form textarea {
+   margin-top: 20px;
+   width: 100%;
+}
+
+
+.footer-content {
+   margin: 20px;
+   color: #eee;
+}
+input{
+min-width: 30% !important;
+}
+textarea{
+  min-width: 92% !important;
+}
